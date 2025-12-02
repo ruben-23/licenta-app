@@ -1,0 +1,33 @@
+/* Modern Lists & Cards */
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: var(--radius);
+    margin-bottom: 0.5rem;
+    background: white;
+    border: 1px solid var(--border);
+    transition: var(--transition);
+}
+
+.list-item:hover {
+    background: #f8fafc;
+    transform: translateX(4px);
+    box-shadow: var(--shadow-sm);
+}
+
+.list-item-count {
+    margin-left: auto;
+    font-weight: 600;
+    color: var(--primary);
+    background: rgba(99, 102, 241, 0.1);
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+}

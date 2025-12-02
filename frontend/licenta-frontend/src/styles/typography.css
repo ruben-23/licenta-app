@@ -1,0 +1,182 @@
+/* Complete Typography System - Pure CSS (No SASS) */
+.text {
+    line-height: 1.6;
+    color: var(--text);
+}
+
+/* Typography Scale */
+.text-h1, h1 {
+    font-size: clamp(2rem, 5vw, 3.75rem);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin-bottom: 1.5rem;
+}
+
+.text-h2, h2 {
+    font-size: clamp(1.875rem, 4vw, 3rem);
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+    margin-bottom: 1.25rem;
+}
+
+.text-h3, h3 {
+    font-size: clamp(1.5rem, 3.5vw, 2.25rem);
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.text-h4, h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.text-h5, h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 0.75rem;
+}
+
+.text-h6, h6 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
+}
+
+.text-body-lg, p {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: var(--text);
+}
+
+.text-body {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text);
+}
+
+.text-body-sm {
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: var(--text-light);
+}
+
+.text-caption {
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: var(--text-light);
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+}
+
+/* Text modifiers */
+.text-muted {
+    color: var(--text-light);
+}
+
+.text-primary {
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-semibold {
+    font-weight: 600;
+}
+
+.text-medium {
+    font-weight: 500;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Links */
+.text-link {
+    color: var(--primary);
+    font-weight: 500;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.text-link:hover {
+    color: var(--primary-hover);
+    text-decoration: underline;
+}
+
+/* Blockquotes */
+.blockquote {
+    border-left: 4px solid var(--primary);
+    padding-left: 1.5rem;
+    margin: 2rem 0;
+    font-style: italic;
+    color: var(--text);
+    font-size: 1.125rem;
+}
+
+.blockquote-author {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--text-light);
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* Code */
+.code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.875em;
+    background: rgba(99, 102, 241, 0.1);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    color: var(--primary);
+}
+
+.code-block {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.875em;
+    display: block;
+    padding: 1rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+    background: #1e1e1e;
+    color: #d4d4d4;
+    border-radius: var(--radius);
+}
+
+/* Responsive text sizing */
+@media (max-width: 768px) {
+    .text-h1, h1 { font-size: 2.5rem; }
+    .text-h2, h2 { font-size: 2rem; }
+    .text-h3, h3 { font-size: 1.75rem; }
+}
+
+/* Leading trimmer for perfect typography */
+.text-tight {
+    line-height: 1.4;
+}
+
+.text-loose {
+    line-height: 1.75;
+}

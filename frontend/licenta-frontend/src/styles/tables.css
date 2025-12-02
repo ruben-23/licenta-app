@@ -1,0 +1,30 @@
+/* Modern Tables */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+}
+
+.table th {
+    background: var(--sidebar-bg);
+    color: white;
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+.table td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.table tr:hover {
+    background: #f8fafc;
+}
+
+.table-row-active {
+    background: rgba(99, 102, 241, 0.1);
+}

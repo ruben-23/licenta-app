@@ -1,0 +1,26 @@
+/* src/styles/List.module.css */
+.title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.list {
+    background: white;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+}
+
+.item {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.05rem;
+}
+
+.item:last-child {
+    border-bottom: none;
+}

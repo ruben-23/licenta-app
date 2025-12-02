@@ -1,0 +1,40 @@
+/* src/styles/Sidebar.module.css */
+.sidebar {
+    width: 260px;
+    background: var(--sidebar-bg);
+    color: #cbd5e1;
+    padding: 2rem 1rem;
+    height: calc(100vh - 64px);
+    position: sticky;
+    top: 64px;
+    overflow-y: auto;
+}
+
+.nav-list {
+    margin-top: 1rem;
+}
+
+.nav-item {
+    margin-bottom: 0.35rem;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius);
+    color: #cbd5e1;
+;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.nav-link:hover {
+    background: #334155;
+    color: white;
+}
+
+.nav-link.active {
+    background: var(--primary);
+    color: white;
+    font-weight: 600;
+}

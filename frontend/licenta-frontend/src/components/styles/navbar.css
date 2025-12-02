@@ -1,0 +1,35 @@
+/* src/styles/Navbar.module.css */
+.navbar {
+    height: 64px;
+    background: var(--navbar-bg);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    box-shadow: var(--shadow-sm);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
+/*.title {*/
+/*    font-size: 1.5rem;*/
+/*    font-weight: 700;*/
+/*    color: var(--primary);*/
+/*}*/
+
+/*.logoutBtn {*/
+/*    padding: 0.5rem 1rem;*/
+/*    border: 1px solid #fca5a5;*/
+/*    background: transparent;*/
+/*    color: #ef4444;*/
+/*    border-radius: var(--radius);*/
+/*    font-weight: 500;*/
+/*    transition: var(--transition);*/
+/*}*/
+
+/*.logoutBtn:hover {*/
+/*    background: #fef2f2;*/
+/*    border-color: #ef4444;*/
+/*}*/

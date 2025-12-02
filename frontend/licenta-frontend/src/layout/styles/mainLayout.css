@@ -1,0 +1,34 @@
+/* src/styles/MainLayout.module.css */
+/*.layout *!*/
+.layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    display: flex;
+    flex: 1;
+}
+
+.main {
+    flex: 1;
+    padding: 2rem;
+    background: var(--bg-main);
+}
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: static;
+    }
+
+    .main {
+        padding: 1.5rem;
+    }
+}

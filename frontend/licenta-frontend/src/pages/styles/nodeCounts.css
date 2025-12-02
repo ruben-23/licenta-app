@@ -1,0 +1,11 @@
+.node-list {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.node-item {
+    background: var(--panel);
+    padding: 1rem;
+    border-radius: var(--radius);
+    font-weight: 600;
+}

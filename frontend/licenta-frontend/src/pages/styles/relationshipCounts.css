@@ -1,0 +1,6 @@
+.rel-item {
+    background: var(--panel);
+    padding: 1rem;
+    border-radius: var(--radius);
+    margin-bottom: 0.75rem;
+}

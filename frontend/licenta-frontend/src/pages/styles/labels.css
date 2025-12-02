@@ -1,0 +1,10 @@
+.labels-list {
+    padding: 1rem;
+    background: var(--panel);
+    border-radius: var(--radius);
+}
+
+.labels-list li {
+    padding: 0.5rem;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
