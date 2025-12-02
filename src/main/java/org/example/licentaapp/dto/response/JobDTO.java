@@ -1,4 +1,4 @@
-package org.example.licentaapp.dto;
+package org.example.licentaapp.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
